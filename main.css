@@ -1,0 +1,20 @@
+body {
+    background-color: #4e7cac;
+}
+
+.rating {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    font-size: 50px;
+    cursor: pointer;
+    color: white; 
+}
+
+.item:hover,
+.item-full {
+    color: yellow;
+}
